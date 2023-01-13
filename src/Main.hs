@@ -7,6 +7,10 @@ import Main.Utf8 qualified as Utf8
 
  The `, run` script will invoke this function.
 -}
+
+-- >>> 1 + 1
+-- 2
+
 main :: IO ()
 main = do
   -- For withUtf8, see https://serokell.io/blog/haskell-with-utf8

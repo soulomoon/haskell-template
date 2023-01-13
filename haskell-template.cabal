@@ -33,45 +33,46 @@ common shared
     relude
 
   default-extensions:
-    NoStarIsType
-    BangPatterns
-    ConstraintKinds
-    DataKinds
-    DeriveDataTypeable
-    DeriveFoldable
-    DeriveFunctor
-    DeriveGeneric
-    DeriveLift
-    DeriveTraversable
-    DerivingStrategies
-    DerivingVia
-    EmptyCase
-    EmptyDataDecls
-    EmptyDataDeriving
-    ExistentialQuantification
-    ExplicitForAll
-    FlexibleContexts
-    FlexibleInstances
-    GADTSyntax
-    GeneralisedNewtypeDeriving
-    ImportQualifiedPost
-    KindSignatures
-    LambdaCase
-    MultiParamTypeClasses
-    MultiWayIf
-    NumericUnderscores
-    OverloadedStrings
-    PolyKinds
-    PostfixOperators
-    RankNTypes
-    ScopedTypeVariables
-    StandaloneDeriving
-    StandaloneKindSignatures
-    TupleSections
-    TypeApplications
-    TypeFamilies
-    TypeOperators
-    ViewPatterns
+    -- NoStarIsType
+    -- BangPatterns
+    -- ConstraintKinds
+    -- DataKinds
+    -- DeriveDataTypeable
+    -- DeriveFoldable
+    -- DeriveFunctor
+    -- DeriveGeneric
+    -- DeriveLift
+    -- DeriveTraversable
+    -- DerivingStrategies
+    -- DerivingVia
+    -- EmptyCase
+    -- EmptyDataDecls
+    -- EmptyDataDeriving
+    -- ExistentialQuantification
+    -- ExplicitForAll
+    -- FlexibleContexts
+    -- FlexibleInstances
+    -- GADTSyntax
+    -- GeneralisedNewtypeDeriving
+    -- ImportQualifiedPost
+    -- KindSignatures
+    -- LambdaCase
+    -- MultiParamTypeClasses
+    -- MultiWayIf
+    -- NumericUnderscores
+    -- OverloadedStrings
+    -- PolyKinds
+    -- PostfixOperators
+    -- RankNTypes
+    -- ScopedTypeVariables
+    -- StandaloneDeriving
+    -- StandaloneKindSignatures
+    -- TupleSections
+    -- TypeApplications
+    -- TypeFamilies
+    -- TypeOperators
+    -- ViewPatterns
+    XGHC2021
 
   build-depends:
     , aeson

@@ -31,6 +31,7 @@
           # overrides = self: super: {}
           hlsCheck.enable = false;
           hlintCheck.enable = true;
+          haskellPackages = pkgs.haskell.packages.ghc924;
         };
 
         # Auto formatters. This also adds a flake check to ensure that the
